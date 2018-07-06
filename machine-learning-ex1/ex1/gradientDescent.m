@@ -18,7 +18,7 @@ for iter = 1:num_iters
     %
     h = X * theta;
     grad = (X' * (h-y)) / m;
-    theta = theta - alpha .* grad
+    theta = theta - alpha .* grad;
     
 
     % ============================================================
